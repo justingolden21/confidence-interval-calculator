@@ -35,6 +35,9 @@ h3 {
 	letter-spacing: 0.1rem;
 	font-size: x-large;
 }
+b {
+	font-size: x-large !important;
+}
 a {
 	color: #008;
 	font-weight: bold;
