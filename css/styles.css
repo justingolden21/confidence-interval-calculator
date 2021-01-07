@@ -18,15 +18,16 @@ body {
 	font-family: system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
 	text-align: center;
 	margin: 1rem;
+	color: #444;
 }
 h3 {
-	color: #888;
+	color: #488;
 	font-weight: lighter;
 	letter-spacing: 0.1rem;
 	font-size: x-large;
 }
 a {
-	color: #888;
+	color: #488;
 	text-decoration: none;
 }
 a:hover {
@@ -46,22 +47,24 @@ label, input[type=number] {
 	font-size: large;
 }
 input[type=number], button {
-	border: 2px solid #888;
 	border-radius: 0.25rem;
 	margin: 0.25rem;
 	padding: 0.5rem;
 	background-color: transparent;
 }
 input[type=number] {
+	border: 2px solid #888;
 	width: 8rem;
 }
 button {
+	color: #488;
+	border: 2px solid #488;
+	font-weight: bold;
 	cursor: pointer;
 	margin: 1rem auto;
 }
 button:hover {
-	background-color: #444;
-	border-color: #444;
+	background-color: #488;
 	color: #fff;
 }
 input[type=number]:focus, button:focus {
