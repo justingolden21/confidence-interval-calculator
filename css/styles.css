@@ -20,12 +20,17 @@ body {
 	margin: 1rem;
 }
 h3 {
+	color: #888;
 	font-weight: lighter;
 	letter-spacing: 0.1rem;
 	font-size: x-large;
 }
-span {
-	font-size: small;
+a {
+	color: #888;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 hr {
 	border-color: #888;
