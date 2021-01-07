@@ -17,17 +17,20 @@
 </head>
 <body>
 	<h3>Confidence Interval Calculator</h3>
-	<label>Sample Mean</label>
-	<input type="number" value="1" autofocus>
-	<label>Confidence Level</label>
-	<input type="number">
-	<label>Sample Standard Deviation</label>
-	<input type="number">
-	<label>Sample Size</label>
-	<input type="number">
-	<button>Calculate</button>
+	<label for="x">Sample Mean (x&#x304;)</label>
+	<input id="x" type="number" value="60" min="-1000000000" max="1000000000" autofocus>
+	<label for="z">Confidence Level (z)</label>
+	<input id="z" type="number" value="0.95" min="0" max="1" step="0.01">
+	<label for="s">Sample Standard Deviation (s)</label>
+	<input id="s" type="number" value="5" min="0" max="1000000000">
+	<label for="n">Sample Size (n)</label>
+	<input id="n" type="number" value="40" min="1" max="1000000000">
+	<button id="calc">Calculate</button>
+	<p id="CI"></p>
 	<hr>
 	<img src="img/formula.png" alt="formula: the confidence interval equals the mean plus or minus the confidence level times the sample standard deviation divided by square root of the sample size" width="240px">
+<!-- 	<br>
+	CI = x&#x304; &#xB1; z * s / &#x221A;(n) -->
 	<br>
 	<span>Source: Google</span>
 </body>
