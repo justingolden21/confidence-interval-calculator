@@ -4,6 +4,10 @@
 
 A simple confidence interval calculator
 
+### To do:
+
+- button to copy output sentence / numbers
+
 ### Links
 
 - Live demo: https://justingolden.me/confidence-interval-calculator/

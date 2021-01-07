@@ -7,11 +7,20 @@ img, button {
 	-ms-user-select: none;
 
 }
+
+/*#palette {
+	color: #048;
+	color: #448;
+	color: #008;
+}*/
+
 ::-moz-selection {
-	background: #e6e6e6;
+	color: white;
+	background: #448;
 }
 ::selection {
-	background: #e6e6e6;
+	color: white;
+	background: #448;
 }
 
 body {
@@ -21,22 +30,23 @@ body {
 	color: #444;
 }
 h3 {
-	color: #488;
+	color: #008;
 	font-weight: lighter;
 	letter-spacing: 0.1rem;
 	font-size: x-large;
 }
 a {
-	color: #488;
+	color: #008;
+	font-weight: bold;
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
 }
 hr {
-	border-color: #888;
+	border-color: #048;
 	border-style: solid;
-	background-color: #888;
+	background-color: #048;
 	width: 16rem;
 }
 label, button {
@@ -53,23 +63,23 @@ input[type=number], button {
 	background-color: transparent;
 }
 input[type=number] {
-	border: 2px solid #888;
+	border: 2px solid #048;
 	width: 8rem;
 }
 button {
-	color: #488;
-	border: 2px solid #488;
+	color: #008;
+	border: 2px solid #008;
 	font-weight: bold;
 	cursor: pointer;
 	margin: 1rem auto;
 }
 button:hover {
-	background-color: #488;
+	background-color: #008;
 	color: #fff;
 }
-input[type=number]:focus, button:focus {
+input[type=number]:focus, button:focus, a:focus {
 	outline: none;
-	border-color: #444;
+	border: 2px solid #4488;
 }
 
 @media (min-width: 640px) { /* sm */
